@@ -1,0 +1,370 @@
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+html{
+	
+}
+div{
+	box-sizing: border-box;
+	
+}
+body{
+	background-image: url("noise.png");
+
+}
+#wrap {
+	background-image: url("noise.png");
+	width: 800px;
+	height: 900px;
+	margin: auto;
+	
+}
+
+#name_top {
+	
+	
+	
+	background-color: transparent;
+	height: 55px;
+	margin-top: 5px;
+	
+
+
+}
+
+
+#name{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: #9c8468;
+	opacity: 0.6;
+	font-size: 42px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+ 
+#contact{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 6px;
+	color: gray;
+	text-shadow: none;
+	font-size: 16px;
+	float: right;
+	display: inline;
+	text-align: right;
+
+}
+
+/* div blocks */
+
+#intro {
+	width: 560px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 10px 0 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+
+
+}
+
+#tech_specs{
+	width: 210px;
+	height: 823px;
+	float: right;
+	display: inline-block;
+	margin: 10px 10px 0  0;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	
+}
+
+#education{
+	width: 275px;
+	height: 125px;
+	display: inline-block;
+	margin: 10px 10px 0 10px;
+	vertical-align: bottom;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+}
+
+
+#hobby{
+	width: 275px;
+	height: 125px;
+	display: inline-block;
+	margin: 10px 10px 0 0px;
+	float: right;
+	vertical-align: bottom;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	
+}
+
+#work{
+	width: 560px;
+	height: 478px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	vertical-align: bottom;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+
+}
+
+
+
+/*intro SECTION*/
+#intro h1 {
+	margin: 0;
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+	border-radius: 8px 8px 0 0;
+
+	
+
+}
+
+
+#intro p {
+	margin: 20px 15px 0;
+	display: inline-block;
+
+}
+
+#intro p:nth-child(3) {
+	margin: 10px 15px 0;
+	width: 70%;
+	display: inline-block;
+
+}
+
+
+
+/*EDUCATION SECTION*/
+
+#education h2 {
+	text-align: center;
+	color: white;
+	background-color: red;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+	border-radius: 8px 8px 0 0;
+}
+
+#education p {
+	margin: 15px 0 0 15px
+}  
+
+/*Interests*/
+#hobby h2 {
+	
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+	border-radius: 8px 8px 0 0;
+}
+
+#hobby ul {
+	margin: 15px 0 0 15px;
+}  
+
+/*employment*/
+#work h2 {
+	
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+	border-radius: 8px 8px 0 0;
+
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+#work h5 {
+	margin: 10px 0 0 40px;
+	font-size: 16px;
+}  
+#work li {
+	
+	margin: 0 0 0 50px;
+	font-size: 13px;
+}  
+#work h6 {
+	margin: 0;
+	font-size: 14px;
+	margin-left: 40px;
+}
+
+#work ul{
+	
+	margin: 15px 25px 5px;
+}
+
+/*Tech skills Section*/
+#tech_q{
+	width: 210px;
+	height: 170px;
+	margin: 0 auto;
+	
+
+
+}
+
+#tech_q h5{
+	width: 206px;
+	margin: 0;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: 900;
+	background-color: red;
+	border-bottom: 2px solid black;
+	border-radius: 8px 8px 0 0;
+}
+
+#tech_q p {
+	margin: 30px 10px;
+}
+
+
+
+
+#software{
+	width: 206px;
+	height: 623px;
+	margin: 0 auto;
+
+}
+#software h2{
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+}
+
+#software ul {
+	margin-top: 25px;
+	margin-left: -6px;
+	display: inline-block;
+
+
+
+}
+#software li {
+	margin-top: 6px;
+
+
+}
+
+#software p {
+	
+	margin-left: 15px;
+	margin-top: 18px;
+}
+
+/*  icons */
+
+
+.diploma{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: right;
+	margin-right: 25px; 
+	margin-top: -25px;
+
+}
+
+.ufology{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	float: right;
+	margin-right: 20px; 
+	margin-top: -65px;
+
+}
+.internet {
+	margin-top: 25px;
+	margin-left: 110px;
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+}
+
+.tools{
+	margin-top: 65px;
+	margin-left: 130px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
+.net{
+	width: 60px;
+	height: 60px;
+	margin-left: 40px;
+	display: inline-block;
+
+}
+
+  button{
+	width: 250px;
+	height: 100px;
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	border-radius: 15px;
+  	
+  	background: rgb(202, 60, 60);
+  	color: white;
+  	font:  normal 28px/10px 'Arial Narrow', Arial;
+}
+	#name_top a:nth-child(2){
+		margin: 0 5px 0 260px;
+
+	}
+	.octicon-mark-github{
+		color: gray;
+	}
+	.octicon-mark-github:hover{
+		color: red;
+	}
+	.octicon-briefcase{
+		color: gray;
+	}
+	.octicon-briefcase:hover{
+		color: red;
+	}
+
+
+*{
+	margin: 0;
+}
